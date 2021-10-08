@@ -1,0 +1,30 @@
+2021-Oct-08
+
+Notes on the implementation:
+
+* I spent about 4 hours on this project; plus time to install or
+  configure some of the software needed for this project (e.g.,
+  python, git).  It's not close to finished, but I stopped when the
+  basic workflow was implemented.  I'd be happy to continue the
+  implementation if that's recommended.
+
+* It wasn't clear to me if the "process" included filling as well as
+  what seems to be heating up.  I eventually decided that filling was
+  separate from the processing and that temperature and pressure
+  related to the processing, not filling.  Especially since there's an
+  open valve, I assumed that pressure mattered only after filling was
+  complete.  Normally I'd ask questions to clarify the spec, but I
+  felt the point of this exercise was different than a regular work
+  task, and the extra time and email would not benefit your
+  assessment.
+
+* I'm aware of REST, but without much web-related experience, I have
+  barely used it before.  I don't understand how the syntax in the
+  provided spec maps to a URL.  While it was fairly simple for me to
+  figure how to get the commands for GET, I spent too much time trying
+  to understand the PUT, so although it doesn't seem hard, I ended up
+  bailing on that portion.  As a result, the code does not run as-is.
+  Presumably modifying the rest_hacks.py file would allow it to "run",
+  meaning I could finish finding whatever bugs exist.
+
+
